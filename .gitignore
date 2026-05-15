@@ -1,0 +1,52 @@
+# --- General ---
+.DS_Store
+.AppleDouble
+.LSOverride
+.directory
+*~
+*.swp
+*.swo
+*.bak
+*.tmp
+*.log
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.egg-info/
+dist/
+venv/
+.venv/
+env/
+
+# --- IDE / Editor ---
+.vscode/
+.idea/
+*.suo
+*.user
+*.workspace
+*.sln.docstates
+
+# --- Server (Python) ---
+server/venv/
+server/.venv/
+server/__pycache__/
+
+# --- Firmware (ESP-IDF) ---
+firmware/build/
+firmware/**/build/
+firmware/*.bin
+firmware/*.elf
+firmware/*.map
+firmware/sdkconfig.old
+firmware/flasher_args.json
+firmware/managed_components/
+firmware/.espressif/
+firmware/.clangd/
+firmware/.ccls-cache/
+firmware/compile_commands.json
+firmware/CMakeCache.txt
+firmware/CMakeFiles/
+firmware/cmake_install.cmake
+firmware/install_manifest.txt
+firmware/CTestTestfile.cmake
