@@ -217,7 +217,7 @@ Python (GIL + readline + emit) → ~500 µs/muestra → ~2000 Hz
 ```
 UART-WEB_LAB/
 ├── .gitignore                    ← Reglas de ignorado para Git
-├── INFORME.md                    ← Este documento
+├── README.md                     ← Este documento
 │
 ├── firmware/                     ← Firmware ESP32-C6 (ESP-IDF)
 │   ├── CMakeLists.txt
